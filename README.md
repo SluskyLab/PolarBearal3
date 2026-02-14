@@ -10,7 +10,7 @@
 Introduction
 ----
 
-This repository contains the algorithm, source code, and accompanying scripts for latest version of PolarBearel3.
+This repository contains the algorithm, source code, and accompanying scripts for the latest version of PolarBearel3.
 
 If you find our work useful, please consider citing our accompanying paper: https://doi.org/...
 
@@ -21,7 +21,7 @@ PolarBearel requires a C# runtime to build the executable.
 - Windows/MacOS uses `.NET 6.0` or higher.
 - Build-compatible with `Mono` latest on Linux.
 
-To install PolarBearel from source:
+### To install PolarBearel from source:
 
 1. Clone the repository from Github.
 
