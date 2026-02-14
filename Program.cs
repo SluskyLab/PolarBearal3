@@ -50,7 +50,7 @@ namespace betaBarrelProgram
         public static string TEST_OUTPUT_DIR = POLARBEARAL_DIR + "./Output/test/";
         public static string TEST_DB_DIR = POLARBEARAL_DIR + "./DB/AF_PDBs/";
         public static string TEST_METHOD = "mono";
-        // default to comprensive input and output
+        // default to comprehensive input and output
         public static string DB_DIR = POLARBEARAL_DIR + "./DB/PDBs/";
         public static string OUTPUT_DIR = POLARBEARAL_DIR + "./Output/";
         public static string DB_file = POLARBEARAL_DIR + "./DB/AllDBList.txt";
@@ -72,6 +72,10 @@ namespace betaBarrelProgram
         public static string BIG1_DB_DIR = "./DB/big_af/big_af_set_PDBs/top_preds/";
         public static string BIG1_DB_file = "./DB/big_af/big_af_set_PDBs/top_preds/quality80_pdb_list.txt";
         public static string BIG1_OUTPUT_DIR = POLARBEARAL_DIR + "./Output/big_test1/";
+
+        public static string CUSTOM_DB_DIR = "./DB/CustomPDBs/";
+        public static string CUSTOM_DB_file = "./DB/CustomDBList.txt";
+        public static string CUSTOM_OUTPUT_DIR = POLARBEARAL_DIR + "./Output/custom/";
 
         public static void change_to_BIG_data()
         {
@@ -150,20 +154,31 @@ namespace betaBarrelProgram
             METHOD = "mono";
         }
 
+        public static void change_to_custom_data()
+        {
+            DB_DIR = CUSTOM_DB_DIR;
+            DB_file = CUSTOM_DB_file;
+            OUTPUT_DIR = CUSTOM_OUTPUT_DIR;
+            METHOD = "mono";
+        }
+
         public static void change_dataset()
         {
             Console.WriteLine("0. mono");
-            Console.WriteLine("1. poly");
+            Console.WriteLine("1. poly (obsolete)");
             Console.WriteLine("2. membrane");
-            Console.WriteLine("3. soluable");
-            Console.WriteLine("4. test");
-            Console.WriteLine("5. AF");
-            Console.WriteLine("6. AF test");
-            Console.WriteLine("7. AF weird");
-            Console.WriteLine("8. AF test2");
-            Console.WriteLine("9. big testing 1");
+            Console.WriteLine("3. soluble");
+            Console.WriteLine("4. test (multi-method, in development)");
+            Console.WriteLine("5. AF ()");
+            Console.WriteLine("6. AF test (obsolete)");
+            Console.WriteLine("7. AF weird (obsolete)");
+            Console.WriteLine("8. AF test2 (obsolete)");
+            Console.WriteLine("9. big testing 1 (obsolete)");
+            Console.WriteLine("10. custom");
+
             string user_input = "";
             user_input = Console.ReadLine();
+
             switch (user_input)
             {
                 case "0":
@@ -196,6 +211,8 @@ namespace betaBarrelProgram
                 case "9":
                     change_to_BIG_data();
                     break;
+                case "10":
+                    change_to_custom_data();
                 default:
                     change_to_mono_data();
                     break;
