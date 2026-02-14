@@ -1,19 +1,18 @@
 <div align="center">
 <div class="header">
-  <h1>PolarBearel</h1>
- [Read our paper](https://doi.org/...) | [Search the PolarBearal database](https://isitabarrel.ku.edu/search) | [Install from source](https://github.com/SluskyLab/PolarBearel3) <br> <br>
-</div>
+  <h1>PolarBearel 3.0</h1>
+  <p>A highly accurate strand assignment and barrel analysis program.<p>
 </div>
 
+  [Read our paper](https://doi.org/...) | [Search the PolarBearal database](https://isitabarrel.ku.edu/search) | [Install from source](https://github.com/SluskyLab/PolarBearel3) <br> <br>
+</div>
+
+Introduction
 ----
 
-# PolarBearel3
+This repository contains the algorithm, source code, and accompanying scripts for latest version of PolarBearel3.
 
-A highly accurate strand assignment and barrel analysis program.
-
-This repository contains the algorithm, source code and accompanying scripts for PolarBearel3.
-
-If you find our work useful, please cite our accompanying paper: https://doi.org/...
+If you find our work useful, please consider citing our accompanying paper: https://doi.org/...
 
 ## Installation
 
