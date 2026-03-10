@@ -4,7 +4,7 @@
   <p>A highly accurate strand assignment and barrel analysis program.<p>
 </div>
 
-  [Read our paper](https://doi.org/...) | [Search the PolarBearal database](https://isitabarrel.ku.edu/search) | [Install from source](https://github.com/SluskyLab/PolarBearel3) <br> <br>
+  [Read our paper on cell.com](https://www.cell.com/biophysj/fulltext/S0006-3495(26)00188-8) | [Install from source](https://github.com/SluskyLab/PolarBearel3) | [Search the PolarBearal database](https://isitabarrel.ku.edu/search) <br> <br>
 </div>
 
 Introduction
@@ -12,7 +12,7 @@ Introduction
 
 This repository contains the algorithm, source code, and accompanying scripts for the latest version of PolarBearel3.
 
-If you find our work useful, please consider citing our accompanying paper: https://doi.org/...
+If you find our work useful, please consider citing our accompanying paper now published in the Biophysical Journal (Cell Press): https://doi.org/10.1016/j.bpj.2026.03.016
 
 ## Installation
 
