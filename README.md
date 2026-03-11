@@ -1,16 +1,16 @@
 <div align="center">
 <div class="header">
-  <h1>PolarBearel 3.0</h1>
+  <h1>PolarBearal 3.0</h1>
   <p>A highly accurate strand assignment and barrel analysis program.<p>
 </div>
 
-  [Read our paper on cell.com](https://www.cell.com/biophysj/fulltext/S0006-3495(26)00188-8) | [Install from source](https://github.com/SluskyLab/PolarBearel3/tree/main?tab=readme-ov-file#installation) | [Search the PolarBearal database](https://isitabarrel.ku.edu/search) <br> <br>
+  [Read our paper on cell.com](https://www.cell.com/biophysj/fulltext/S0006-3495(26)00188-8) | [Install from source](https://github.com/SluskyLab/PolarBearal3/tree/main?tab=readme-ov-file#installation) | [Search the PolarBearal database](https://isitabarrel.ku.edu/search) <br> <br>
 </div>
 
 Introduction
 ----
 
-This repository contains the algorithm, source code, and accompanying scripts for the latest version of PolarBearel3.
+This repository contains the algorithm, source code, and accompanying scripts for the latest version of PolarBearal3.
 
 If you find our work useful, please consider citing our accompanying paper.
 Now published in Cell Press under the Biophysical Journal: https://doi.org/10.1016/j.bpj.2026.03.016.
@@ -21,27 +21,27 @@ Slusky JSG, Counting strands in outer membrane beta-barrels, *Biophysical Journa
 
 ## Installation
 
-PolarBearel requires a C# runtime to build the executable.
+PolarBearal requires a C# runtime to build the executable.
 
 - Windows/MacOS uses `.NET 6.0` or higher.
 - Build-compatible with `Mono` latest on Linux.
 
-### To install PolarBearel from source:
+### To install PolarBearal from source:
 
 1. Clone the repository from Github.
 
 ```sh
-git clone https://github.com/SluskyLab/PolarBearel3
+git clone https://github.com/SluskyLab/PolarBearal3
 ```
 
-2. Build the PolarBearel executable.
+2. Build the PolarBearal executable.
 ```sh
-cd PolarBearel3 && dotnet build
+cd PolarBearal3 && dotnet build
 ```
 
-## Reproducing PolarBearel strand assignments from AlphaFoldDB
+## Reproducing PolarBearal strand assignments from AlphaFoldDB
 
-> Note: PolarBearelDB strand number assignments are already available for [public download](https://isitabarrel.ku.edu/download) as part of our [IsItABarrel web application](https://isitabarrel.ku.edu/).
+> Note: PolarBearalDB strand number assignments are already available for [public download](https://isitabarrel.ku.edu/download) as part of our [IsItABarrel web application](https://isitabarrel.ku.edu/).
 
 Download the AlphaFold structures necessary for barrel and strand counting analysis.
 
@@ -65,4 +65,4 @@ Each PDB structure receives its own strand assignment and annotated PyMOL sessio
 
 ## License
 
-PolarBearel is provided under the GPL 3.0 Public License. For more information, refer to our [LICENSE](./LICENSE.md) file.
+PolarBearal is provided under the GPL 3.0 Public License. For more information, refer to our [LICENSE](./LICENSE.md) file.

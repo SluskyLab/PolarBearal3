@@ -293,7 +293,7 @@ namespace betaBarrelProgram
             Console.WriteLine("2. Test Structure for Single-Barrel Analysis");
             Console.WriteLine("3. Choose dataset to run mass analysis (defaults to mono method)");
             Console.WriteLine("4. Run beta-barrel analysis for selected database");
-            Console.WriteLine("5. PolarBearel"); //the polar bear
+            Console.WriteLine("5. PolarBearal"); //the polar bear
             Console.WriteLine("6. Multi-method analysis of a structure (in development)");
             Console.WriteLine("7. Run centroid analysis");
             Console.WriteLine("8. Run high-low analysis");
