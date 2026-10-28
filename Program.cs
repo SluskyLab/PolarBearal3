@@ -213,6 +213,7 @@ namespace betaBarrelProgram
                     break;
                 case "10":
                     change_to_custom_data();
+                    break;
                 default:
                     change_to_mono_data();
                     break;
