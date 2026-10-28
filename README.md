@@ -65,4 +65,4 @@ Each PDB structure receives its own strand assignment and annotated PyMOL sessio
 
 ## License
 
-PolarBearal is provided under the AGPL 3.0 Public License. For more information, refer to our [LICENSE](./LICENSE.md) file.
+PolarBearal is provided under the AGPL 3.0 Public License. For more information, refer to our [LICENSE](./LICENSE) file.
